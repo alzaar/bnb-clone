@@ -1,0 +1,42 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+  background-image: url("https://picsum.photos/1000/500/?random");
+  height: 250px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  border-bottom: solid;
+  border-color: white;
+}
+input {
+  float: left;
+  width: 70px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+}
+input[type=text]:focus {
+  width: 40%;
+}
+::placeholder {
+  color: #FFFFFF;
+}
