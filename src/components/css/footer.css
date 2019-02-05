@@ -1,0 +1,9 @@
+footer {
+	text-align: center;
+	background-color: black;
+	padding: 40px;
+}
+
+.changeSize {
+	font-size: 15px;
+}

@@ -1,0 +1,45 @@
+.font-style {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: white;
+}
+
+.option2 {
+    color: white;
+}
+
+.descriptors {
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+
+.datepicker {
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+
+input.descriptors {
+  width: 325px;
+}
+input {
+
+  width: 120px;
+  -webkit-transition: width 0.4s ease-in-out;
+  /* transition: width 0.4s ease-in-out; */
+  background: transparent;
+  border: none;
+  text-align: center;
+
+}
+/* input[type=text]:focus {
+  width: 20%;
+} */
+::placeholder {
+  color: #FFFFFF;
+}
+
+.searchOption {
+  position: relative;
+  left: 700px;
+  top: 400px;
+}

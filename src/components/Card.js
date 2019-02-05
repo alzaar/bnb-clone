@@ -1,18 +1,17 @@
 import React from 'react';
-
-class Card extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <link href="https://fonts.googleapis.com/css?family=Roboto:300:400:700" rel="stylesheet">
-        <div className="cards clearfix">
-          <div className="card-col-1"></div>
-          <div className="card-col-2"></div>
-          <div className="card-col-3"></div>
+import './css/card.css';
+const Card = (props) => {
+  return (
+    <div className="col-sm">
+      <div class="card">
+        <img class="card-img-top" src="https://picsum.photos/300/200/?random" alt="Card image cap"/>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-    );
-  }
+      </div>
+    </div>
+  );
 }
+export default Card;

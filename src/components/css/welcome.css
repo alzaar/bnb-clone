@@ -1,0 +1,33 @@
+.bg-img {
+  /* The image used */
+  background-image: url("https://picsum.photos/1850/500/?random");
+
+  min-height: 1000px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+
+
+/* The navbar */
+
+
+.link {
+  color: white;
+  float: right;
+  padding-right: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+/* Navbar links */
+.link:hover {
+  text-align: none;
+  color: white;
+}

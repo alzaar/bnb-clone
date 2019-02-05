@@ -1,0 +1,13 @@
+.mynavbar {
+  background-color: transparent;
+}
+
+.navButtonHome {
+  position: relative;
+  left: 1730px;
+}
+
+.navButtonAbout {
+  position: relative;
+  left: 1740px;
+}
