@@ -4,11 +4,10 @@ import BigCard from './BigCard';
 const CardCollection = (props) => {
   return (
     <div className="container">
-      <div className="row">
-        <BigCard/>
-        <BigCard/>
-        <BigCard/>
-        <BigCard/>
+      <div className="row justify-content-center">
+      <BigCard/>
+      <Card/>
+      <Card/>
       </div>
     </div>
   );

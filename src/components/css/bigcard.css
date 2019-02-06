@@ -1,0 +1,13 @@
+.positioning {
+  margin-bottom: 15px;
+  font-family: 'Lobster', cursive;
+}
+
+.bookButton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  position: relative;
+  top: 190px;
+  left: 800px;
+}

@@ -1,7 +1,6 @@
 import React from 'react';
-import CardCollection from '../components/CardCollection';
-import HomeNavbar from '../components/HomeNavbar';
 import Welcome from '../components/Welcome';
+import CardCollection from '../components/CardCollection';
 class Home extends React.Component {
   constructor(props) {
     super(props);
@@ -10,8 +9,7 @@ class Home extends React.Component {
     return (
       <div>
         <Welcome/>
-          <h3 className="container">Places to stay at...</h3>
-        <CardCollection/>
+          <CardCollection/>
       </div>
     );
   }

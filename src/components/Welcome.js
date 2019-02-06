@@ -7,7 +7,7 @@ class Welcome extends React.Component {
   render() {
     return (
       <div>
-        <div class="bg-img">
+        <div class="big-img">
           <div>
             <div>
               <a className="link" href="#home">Home</a>
